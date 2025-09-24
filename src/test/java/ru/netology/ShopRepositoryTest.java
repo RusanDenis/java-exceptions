@@ -26,7 +26,7 @@ class ShopRepositoryTest {
     @Test
     void shouldRemove() {
         repo.remove(2);
-        Product[] expected = {banan, milk, orange};
+        Product[] expected = {banan, bread, orange};
 
         Assertions.assertArrayEquals(expected, repo.findAll());
 
